@@ -83,37 +83,6 @@
     color:var(--color-pwhite);
 }
 
-.leftbtn {
-    border-radius: 100%;
-    min-height: 40px !important;
-    border: 2px solid var(--color-lgold);
-    max-width: 40px;
-    width: 100%;
-    background:var(--color-pwhite);
-    border: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
-
-}
-
-.leftbtn:hover {
-    background: linear-gradient(146.79deg, #E0B764 97.77%, #F4EAD8 0%);
-color: var(--color-pwhite);
-}
-
-.rghtbtn {
-    max-width: 40px;
-    width: 100%;
-    min-height: 40px !important;
-    border-radius: 100%;
-    border: 2px solid var(--color-lgold);
-    /* padding: 14px; */
-    background:var(--color-pwhite);
-    border: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
-}
-.rghtbtn:hover {
-    background: linear-gradient(146.79deg, #E0B764 97.77%, #F4EAD8 0%);
-    color:var(--color-pwhite);
-}
-
 .hoverline {
     position: relative;
     display: inline-block;
@@ -543,9 +512,10 @@ color: var(--color-pwhite);
 }
 
 .box7 {
+    max-width: 1000px;
     border: 1px solid;
     border-radius: 24px;
-    padding: 40px;
+    padding: 16px;
     box-shadow: 0px 0px 14.139328956604004px 2.8278656005859375px #D8D8D840;
     border: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
 }
@@ -762,14 +732,17 @@ color: var(--color-pwhite);
 }
 
 .box3 {
-    border: 1px solid;
+    
     border-radius: 16px;
     padding: 17px 28px;
     max-width: 1000px;
     width: 100%;
-    box-shadow: 0px 0px 20px 4px #D8D8D840;
-    border-image: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
     background:var(--color-pwhite);
+    box-shadow: 0px 0px 14.139328956604004px 2.8278656005859375px #D8D8D840;
+    border: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
+   
+    border: 1px solid var(--color-vwhite);
+
 }
 
 .vidobodr {
@@ -1085,11 +1058,7 @@ color: var(--color-pwhite);
 
 }
 
-.position-absolute8 {
-    position: absolute;
-    left: 8%;
-    top: 61%;
-}
+
 .mt-20{
     margin-top: 20px;
 }
@@ -1120,13 +1089,6 @@ color: var(--color-pwhite);
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     background: linear-gradient(90deg, #F4EAD8 0%, #E0B764 97.77%) border-box;
-
-}
-
-.position-absolute9 {
-    position: absolute;
-    right: 8%;
-    top: 61%;
 
 }
 
@@ -1205,9 +1167,99 @@ color: var(--color-pwhite);
 .timeline-line2 {
     position: absolute;
     left: 0;
+}
 
+
+.box7 {
+    max-width: 1000px;
+    border-radius: 24px;
+    padding: 16px;
+    box-shadow: 0px 0px 14.139328956604004px 2.8278656005859375px #D8D8D840;
+    border: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
+    background: var(--color-pwhite);
+    border: 1px solid var(--color-vwhite);
 
 }
+
+.crd-container{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.w-1000{
+    max-width: 1000px;
+}
+.my-container2{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+
+.thrd-crd{
+    border: 5.6px;
+    box-shadow: 0px 0px 14.139328956604004px 2.8278656005859375px #D8D8D840;
+    padding: 18px;
+}
+.forth-crd{
+    border: 5.6px;
+    box-shadow: 0px 0px 14.139328956604004px 2.8278656005859375px #D8D8D840;
+    padding: 18px; 
+}
+
+.position-absolute8 {
+    position: absolute;
+    left: -4%;
+    top: 61%;
+}
+
+.leftbtn { 
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--color-lgold);
+    
+    background:var(--color-pwhite);
+    background: linear-gradient(white, white) padding-box, linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
+
+}
+
+.leftbtn:hover {
+    background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+color: var(--color-pwhite);
+
+}
+.leftbtn:hover svg path {
+    fill:var(--color-pwhite);
+}
+
+.rghtbtn {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--color-lgold);
+    /* padding: 14px; */
+    background:var(--color-pwhite);
+    background: linear-gradient(white, white) padding-box, linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
+}
+
+.position-absolute9 {
+    position: absolute;
+    right: -4%;
+    top: 61%;
+
+}
+.rghtbtn:hover {
+    background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+    color:var(--color-pwhite);
+}
+.rghtbtn:hover svg path {
+    fill:var(--color-pwhite);
+}
+
 
 
 /* -----------timeline------------- */

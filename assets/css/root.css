@@ -22,13 +22,15 @@
     --color-sgry:#D7C8AE52;
     --color-dsgld:#E9CF9A;
     --color-drkgray:#C2C2C2;
-    
-    
+    --color-vwhite:#F0E0C0;  
+}
+.color-vwhite{
+    color: var(--color-vwhite);
 }
 .color-drkgray{
 color: var(--color-drkgray);
 }
-.color{
+.color-dsgld{
     color: var(--color-dsgld);
 }
 
