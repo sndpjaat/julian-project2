@@ -1,4 +1,4 @@
-@import url(./root.css);
+
 :root{
     --fs-sm1: 12px;
     --fs-sm: 16px;
@@ -7,16 +7,58 @@
     --fs-xl: 48px;
     --fs-2xl: 50px;
     --fs-3xl: 60px;
+    --color-lghtgray:#FFFFFF52;
+    --color-pwhite:#fff;
     --color-black:#1A1A1A;
     --color-offwhite:#FCF9F6;
-    --color-bg-black:#0000;
+    --color-bg-black:#000;
     --color-bg-white:#FFFFFF;
     --color-light:#E7C88A;
+    --color-gold:#52452D;
+    --color-lgold:#E5C480;
+    --color-sgold:#E3BF76;
+    --color-dgld:#52452D;
+    --color-dgray:#FCF9F64D;
+    --color-sgry:#D7C8AE52;
+    --color-dsgld:#E9CF9A;
+    --color-drkgray:#C2C2C2;
     
     
 }
+.color-drkgray{
+color: var(--color-drkgray);
+}
+.color{
+    color: var(--color-dsgld);
+}
 
+.color-sgry{
+    color:var(--color-sgry)
+}
+.color-dgray{
+    color: var(--color-dgray);
+}
+.color-dgld{
+    color: var(--color-dgld);
+}
+.color-sgold{
+    color: var(--color-sgold);
 
+}
+.color-lgold{
+    color: var(--color-lgold);
+
+}
+.colorlghtgray{
+    color: var(--color-lghtgray);
+}
+.color-gold{
+    color: var(--color-gold);
+}
+
+.color-pwhite{
+    color: var(--color-pwhite);
+}
 .color-light{
     color: var(--color-light);
 }
@@ -93,10 +135,7 @@
 .lh-68{
     line-height: 68.99px;
 }
-.ff-Helvetica{
-    font-family: 'Helvetica';
 
-}
 .ff-Garamond{
     font-family: "EB Garamond", serif;
 }

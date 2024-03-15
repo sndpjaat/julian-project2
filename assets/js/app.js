@@ -1,5 +1,5 @@
-var  menuIcon = document.querySelector(".menuIcon");
-var menuList = document.querySelector(".menuList");
+const  menuIcon = document.querySelector(".menuIcon");
+const menuList = document.querySelector(".menuList");
 
 menuIcon.addEventListener("click" , ()=>{
     menuIcon.classList.toggle("active");
@@ -25,10 +25,3 @@ function clickhere(tabs) {
   selecttab.classList.add("active")
 }
 
-const menuicon = document.querySelector(".menuicon");
-const menulist = document.querySelector(".menulist");
-menuicon.addEventListener("click", () => {
-  menulist.classList.toggle("show");
-  document.body.classList.toggle("overflow-hidden");
-  menuicon.classList.toggle("show");
-});
