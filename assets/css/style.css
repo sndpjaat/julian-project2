@@ -11,6 +11,7 @@
     text-decoration: none !important;
    
 }
+
 @font-face {
     font-family:"Helvetica" ;
     src: url(../font/Helvetica.woff);
@@ -192,8 +193,6 @@
     background-size: 100% 100%;
 
 }
-
-
 .minas-icon {
     display: none;
 }
@@ -272,7 +271,6 @@
     box-shadow: 0px 4px 20px 0px #B6B6B640;
     border: 1px solid transparent;
     border-radius: 8px;
-    
     background: linear-gradient(white, white) padding-box, linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
 }
 .card_2 {
@@ -281,7 +279,6 @@
     max-width: 485px;
     cursor: pointer;
     border-radius: 8px;
-    
     border-left: 2px solid transparent;
     background: linear-gradient(white, white) padding-box, linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%) border-box;
 }
@@ -365,7 +362,7 @@
     background: linear-gradient(white, white) padding-box, linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
     border-radius: 5px;
     cursor: pointer;
-    
+   
 }
 
 .minus-sign {
@@ -577,13 +574,10 @@
     /* border: 1px solid transparent; */
     background-clip: padding-box;
     background-color:var(--color-pwhite);
-    border-radius: 16px;
-    
+    border-radius: 16px; 
    padding: 35px 16px 35px 16px;
     box-shadow: 0px 4px 20px 0px #B6B6B640;
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;  
 }
 
 .first-box::before {
@@ -606,8 +600,6 @@
 .pb-91 {
     padding-bottom: 91px;
 }
-
-
 .pb-718 {
     padding-bottom: 178px;
 }
@@ -623,17 +615,13 @@
     padding: 24px;
     border: 0.5px solid #514837;
     /* background-color:var(--color-gold); */
-    height: 100%;
-   
+    height: 100%; 
     transition: all 400ms linear;
 
 }
-
-
 .box2:hover{
     background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
-    transition: 400ms;
-  
+    transition: 400ms; 
 }
 
 .box5 {
@@ -650,13 +638,11 @@
 
 .max-w-185 {
     max-width: 185px;
-
 }
 
 .pb-20 {
     padding-bottom: 20px;
 }
-
 .pt-40 {
     padding-top: 40px;
 }
@@ -732,7 +718,6 @@
 }
 
 .box3 {
-    
     border-radius: 16px;
     padding: 17px 28px;
     max-width: 1000px;
@@ -740,7 +725,6 @@
     background:var(--color-pwhite);
     box-shadow: 0px 0px 14.139328956604004px 2.8278656005859375px #D8D8D840;
     border: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
-   
     border: 1px solid var(--color-vwhite);
 
 }
